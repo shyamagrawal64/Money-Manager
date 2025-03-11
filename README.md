@@ -1,13 +1,12 @@
-# Money-Manager
-Money Manager 💰
-A simple and interactive Money Manager web application to track expenses and manage finances efficiently.
+# Money-Manager  
 
-🚀 Features
-✅ Add and track daily expenses
-✅ User-friendly interface with a clean layout
-✅ Basic financial overview at a glance
-✅ Lightweight and runs directly in the browser
+💰 A simple and interactive Money Manager web application to track expenses and manage finances efficiently.  
 
-🛠 Tech Stack
-HTML, CSS
-JavaScript
+## 🚀 Features  
+- ✅ Add and track daily expenses  
+- ✅ User-friendly interface with a clean layout  
+- ✅ Basic financial overview at a glance  
+- ✅ Lightweight and runs directly in the browser  
+
+## 🛠 Tech Stack  
+- HTML, CSS, JavaScript  
