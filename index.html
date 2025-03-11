@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>money manager</title>
+    <title>Money Manager</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -62,31 +62,31 @@
 </head>
 <body>
     <div class="container">
-        <h2>Full day expense calculator</h2>
+        <h2>Full Day Expense Calculator</h2>
         <div class="input-group">
-            <label for="expensecategory">expense type:</label>
+            <label for="expensecategory">Expense Type:</label>
             <select id="expensecategory">
-                <option value="food">food</option>
-                <option value="clothes">clothes</option>
-                <option value="transport">transport</option>
-                <option value="entertainment">entertainment</option>
-                <option value="sports">sports</option>
-                <option value="education">education</option>
-                <option value="other">other</option>
+                <option value="food">Food</option>
+                <option value="clothes">Clothes</option>
+                <option value="transport">Transport</option>
+                <option value="entertainment">Entertainment</option>
+                <option value="sports">Sports</option>
+                <option value="education">Education</option>
+                <option value="other">Other</option>
             </select>
         </div>
         <div class="input-group">
-            <label for="expensedescription">description:</label>
-            <input type="text" id="expensedescription" placeholder="enter details">
+            <label for="expensedescription">Description:</label>
+            <input type="text" id="expensedescription" placeholder="Enter Details">
         </div>
         <div class="input-group">
-            <label for="expenseamount">amount (inr):</label>
-            <input type="text" id="expenseamount" placeholder="enter amount">
+            <label for="expenseamount">Amount (INR):</label>
+            <input type="text" id="expenseamount" placeholder="Enter Amount">
         </div>
-        <button onclick="addexpense()">add expense</button>
-        <button onclick="cleardata()" style="background:#e63946;">clear data</button>
+        <button onclick="addexpense()">Add Expense</button>
+        <button onclick="cleardata()" style="background:#e63946;">Clear Data</button>
         <ul id="expenselist"></ul>
-        <h3>total expense of the day: ₹<span id="totalamount">0</span></h3>
+        <h3>Total Expense of the Day: ₹<span id="totalamount">0</span></h3>
     </div>
 
     <script>
@@ -120,7 +120,7 @@
                 document.getElementById('expensedescription').value = '';
                 document.getElementById('expenseamount').value = '';
             } else {
-                alert('please enter a valid amount!');
+                alert('Please enter a valid amount!');
             }
         }
         
